@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:orientation="vertical">
+   <LinearLayout
+       android:id="@+id/homeadap_ll"
+       android:orientation="horizontal"
+       android:weightSum="2"
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <ImageView
+           android:padding="5dp"
+           android:layout_weight="1.7"
+           android:src="@drawable/home_red"
+           android:id="@+id/myhome"
+           android:textSize="20dp"
+           android:text="hlellosadsdf"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent" />
+       <TextView
+           android:textColor="@color/black"
+           android:layout_marginLeft="10dp"
+           android:layout_weight=".3"
+           android:textSize="18dp"
+           android:gravity="fill"
+           android:id="@+id/mytext"
+           android:text="Home"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent" />
+   </LinearLayout>
+</android.support.v7.widget.CardView>
